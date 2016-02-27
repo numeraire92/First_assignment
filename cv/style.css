@@ -1,0 +1,131 @@
+/*
+ * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+ *
+ * CSS for making a resume with pandoc. Inspired by moderncv.
+ *
+ * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+ * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ */
+
+/* Whole document */
+
+@font-face{
+	font-family: 'Liberation Serif';
+	src: url(fonts/LiberationSerif-Regular.ttf) format("truetype");
+}
+body {
+/*
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+*/
+	font-family: 'Liberation Serif';
+    width: 800px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+}
+
+/*
+.title {
+    display: none;
+}
+*/
+
+/* Title of the resume */
+h1 {
+    font-size: 55px;
+    color: #757575;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+/* Titles of categories */
+h2 {
+    color: #397249;
+}
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 16%;
+    height: 10px;
+    background-color: #9CB770;
+}
+
+/* Definitions */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    font-weight: bold;
+}
+dd {
+    margin-left: 17%;
+}
+p {
+    margin-top:0;
+    margin-bottom:7px;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #397249;
+}
+a:hover, a:active {
+    background-color: #397249;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Horizontal separators */
+hr {
+    color: #A6A6A6;
+}
+
+
+/* Asides */
+
+.aside{
+	float:right;
+	width:300px;
+	background-color:#eee;
+	margin: 0 0 4px 20px;
+	padding: 6px 14px;
+	overflow:hidden;
+}
+.aside h1, .aside h2, .aside h3{
+	margin-left: 0px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.aside ul{
+	padding-left:18px;
+}
+.aside li{
+	padding-right:0px;
+}
+
+.aside blockquote{
+	padding:0;
+	margin:0;
+	text-indent: 1em;
+}
+
+.aside dt{
+	width: 19%;
+}
+
+.aside dd {
+    margin-left: 19%;
+}
+
+.aside h2:before{
+	width: 19%;
+}
