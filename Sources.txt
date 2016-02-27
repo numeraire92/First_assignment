@@ -1,0 +1,3 @@
+http://bitlyfied.com/2013/03/14/markdown-cv/
+
+http://blog.chmd.fr/editing-a-cv-in-markdown-with-pandoc.html
