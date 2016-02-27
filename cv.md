@@ -44,6 +44,7 @@ Education
 :	**Tilburg University** (Tilburg, the Netherlands ), MSc in Economics
 
 	*(currently following track Sustainability and Growth)*
+	
 2012 -
 :	**Széchenyi István College for Advanced Studies** (Budapest, Hungary)
 
