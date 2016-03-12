@@ -99,3 +99,14 @@ Computer skills
 	+ Practiced Google Script, Python and Visual Basic for Applications programmer
 	+ Competent Eviews7, MATLAB and STATA user
 	
+## Tilburg University: Numerical Simulations Assignments
+
+Assignment 1
+:	[The link](http://numeraire92.github.io/first_assignment/)
+
+Assignment 2
+:	[The link](http://numeraire92.github.io/second_assignment/)
+
+Assignment 3
+:	Link is not available yet
+	
