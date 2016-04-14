@@ -108,5 +108,5 @@ Assignment 2
 :	[The link](http://numeraire92.github.io/second_assignment/)
 
 Assignment 3
-:	Link is not available yet
+:	[The link](https://github.com/numeraire92/third-assignment)
 	
